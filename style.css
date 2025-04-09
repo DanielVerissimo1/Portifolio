@@ -47,12 +47,36 @@ header > nav.navbar{
 }
 a.navbar-brand{
     font-size: 28px; 
-    
 }
 header>nav.navbar>div.container-fluid>div.collapse>ul.navbar-nav>li.nav-item>a.nav-link:hover{
     border-bottom:4px solid #5DFFFF;
 }
-
 .containerNavBar{
     width: 88%;
+}
+/* section Apresentação */
+h2.h2-apresentacao{
+    color: white;
+}
+
+div.containerApresentacao{
+    height: 45.8rem;
+
+}
+div.img-icone{
+    width: 50px;
+    padding: 0%;
+}
+div.spans-apre{
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 700;
+    margin-top: 11rem;
+}
+.spanOla,.dev,.contato,.spanHeader{
+    background: linear-gradient(45deg, #5DFFFF, #AE0CA7);-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.imagemREdesSociais:hover{
+    width:32px;
 }
