@@ -74,7 +74,8 @@ div.spans-apre{
     margin-top: 11rem;
 }
 .spanOla,.dev,.contato,.spanHeader{
-    background: linear-gradient(45deg, #5DFFFF, #AE0CA7);-webkit-background-clip: text;
+    background: linear-gradient(45deg, #5DFFFF, #AE0CA7);
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .imagemREdesSociais:hover{
