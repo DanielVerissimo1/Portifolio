@@ -40,3 +40,19 @@ h3{
 p{
    line-height: 22px;
 }
+/* header  */
+header > nav.navbar{
+    font-size: 22px; 
+    font-weight: 600;
+}
+a.navbar-brand{
+    font-size: 28px; 
+    
+}
+header>nav.navbar>div.container-fluid>div.collapse>ul.navbar-nav>li.nav-item>a.nav-link:hover{
+    border-bottom:4px solid #5DFFFF;
+}
+
+.containerNavBar{
+    width: 88%;
+}
