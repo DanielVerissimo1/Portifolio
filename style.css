@@ -80,3 +80,47 @@ div.spans-apre{
 .imagemREdesSociais:hover{
     width:32px;
 }
+
+
+/* section sobre mim  */
+.btnApre{
+    color: white;
+    font-weight: 700;
+    font-size: 19px;
+    width: 140px;
+    height: 54px;
+    border-radius: 12px;
+    background-color: #3ccece;
+    border: none;
+    box-shadow:2px 1px 3px 1px #42dada;
+}
+.btnApre:hover{
+    box-shadow:2px 1px 3px 1px #84177e;
+
+    background-color: #950f8e;
+
+}
+
+div.containerSobreMim{
+    padding:180px;
+    height: 48.8rem;
+}
+h2.h2-sobreMim{
+    margin-bottom: 2rem;
+    margin-top: 6px;
+}
+.img-daniel{
+    border-radius: 10px;
+}
+.h3-sobreMim1{
+    font-size:50px;
+   line-height: 50px;
+}
+.h3-sobreMim2{
+    background: linear-gradient(45deg, #5DFFFF, #AE0CA7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-size: 32px;
+   line-height: 32px;
+   font-weight: 700;
+}
