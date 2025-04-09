@@ -309,3 +309,12 @@ div.containerTech{
 .pFooter,hr{
     margin: 0%;
 }
+
+div.hr{
+    height: 4px;
+    display: flex;
+    justify-content: center;
+}
+hr{
+    width: 88%;
+}
