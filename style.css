@@ -124,3 +124,41 @@ h2.h2-sobreMim{
    line-height: 32px;
    font-weight: 700;
 }
+
+
+/* section Tecnologias */
+
+h2.h2-tech{
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+div.containerTech{
+    height: 48.8rem;
+    padding: 9.4rem;
+}
+.spanTrabalho,.spanProjetos{
+    background: linear-gradient(45deg, #5DFFFF, #AE0CA7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.divImg{
+    height: 270px;
+    width: 320px;
+    padding: 18px;
+    border-radius: 4px;
+    background-color:   #0c0c0c;
+
+
+}
+.tech-paragrafo,.pProjeto{
+   line-height: 20px;
+   font-size: 18px;
+
+}
+.tech-titulo,.h4Projeto{
+    margin-top: 11px;
+    margin-bottom: 11px;
+    background: linear-gradient(45deg, #5DFFFF, #AE0CA7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
