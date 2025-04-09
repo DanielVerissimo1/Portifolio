@@ -296,3 +296,16 @@ div.containerTech{
     background-color: #950f8e;
 
 }
+
+/* footer */
+
+.footer{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 6rem;
+}
+.pFooter,hr{
+    margin: 0%;
+}
