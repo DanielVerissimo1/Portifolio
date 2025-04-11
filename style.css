@@ -38,7 +38,9 @@ h3{
     font-size: 60px;
 }
 p{
-   line-height: 22px;
+   line-height: 20px;
+   font-weight: 350;
+
 }
 /* header  */
 header > nav.navbar{
@@ -46,7 +48,7 @@ header > nav.navbar{
     font-weight: 600;
 }
 a.navbar-brand{
-    font-size: 28px; 
+    font-size: 30px; 
 }
 header>nav.navbar>div.container-fluid>div.collapse>ul.navbar-nav>li.nav-item>a.nav-link:hover{
     border-bottom:4px solid #5DFFFF;
@@ -104,7 +106,7 @@ div.spans-apre{
 
 div.containerSobreMim{
     padding:180px;
-    height: 48.8rem;
+    height: 100vh;
 }
 h2.h2-sobreMim{
     margin-bottom: 2rem;
@@ -134,7 +136,7 @@ h2.h2-tech{
     margin-top: 1rem;
 }
 div.containerTech{
-    height: 48.8rem;
+    height: 100vh;
     padding: 9.4rem;
 }
 .spanTrabalho,.spanProjetos{
@@ -154,6 +156,7 @@ div.containerTech{
 .tech-paragrafo,.pProjeto{
    line-height: 20px;
    font-size: 18px;
+   font-weight: 350;
 
 }
 .tech-titulo,.h4Projeto{
@@ -168,7 +171,7 @@ div.containerTech{
 
 
 .containerProjeto{
-    height: 48.8rem;
+    height: 100vh;
 
     width: 100%;
 }
@@ -317,5 +320,5 @@ div.hr{
     justify-content: center;
 }
 hr{
-    width: 88%;
+    width: 89%;
 }

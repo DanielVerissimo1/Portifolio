@@ -22,6 +22,7 @@
           "backdrop-filter"
         ]
       }
-    ]
+    ],
+    "disown-opener": "off"
   }
 }
