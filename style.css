@@ -4,42 +4,34 @@
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: "Josefin Sans";
-    font-size: 18px; 
-    line-height: 18px;
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
+body, section {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
     color: white;
-    background-color:black;
-}
-section{
-    background-color:black;
+    background-color: black;
+    line-height: 18px;
 }
 h1 {
-   font-size: 87px; 
-   font-weight: 700;
-   line-height: 90px;
-   
+    font-size: 87px;
+    font-weight: 700;
+    line-height: 90px;
 }
-h3,h2{   
-    font-weight: 700; 
-    line-height: 70px;
-    color: white;
-
-}
-h2{
+h2 {
     font-size: 70px;
-   line-height: 70px;
+    font-weight: 700;
+    line-height: 70px;
 }
-h3{
+h3 {
     font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
 }
-p{
-   line-height: 20px;
-   font-weight: 350;
 
+p, .tech-paragrafo, .pProjeto, .pInfo {
+    line-height: 20px;
+    font-weight: 350;
+    font-size: 18px;
 }
 /* header  */
 nav.navbar{
@@ -47,7 +39,6 @@ nav.navbar{
     font-weight: 600;
     height: 90px;
 }
-
 a.navbar-brand{
     font-size: 30px; 
 }
@@ -57,13 +48,19 @@ a.nav-link:hover{
 .containerNavBar{
     width: 88%;
 }
-/* section Apresentação */
-h2.h2-apresentacao{
-    color: white;
+/* texto com gradiente */
+
+.spanOla, .dev, .contato, .spanHeader,.spanTrabalho, .spanProjetos,
+.h3-sobreMim2, .tech-titulo, .h4Projeto {
+    background: linear-gradient(45deg, #5DFFFF, #AE0CA7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
+/* section Apresentação */
+
 div.img-icone{
-    width: 50px;
+    width: 65px;
 }
 div.spans-apre{
     font-size: 25px;
@@ -71,27 +68,50 @@ div.spans-apre{
     font-weight: 700;
     margin-top: 10rem;
 }
-.spanOla,.dev,.contato,.spanHeader{
-    background: linear-gradient(45deg, #5DFFFF, #AE0CA7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.imgLinkedin:hover {
+    width:34px; 
 }
 .imagemREdesSociais:hover{
-    width:32px;
+    width:37px;
 }
 
-.btnApre{
+/* button */
+
+
+.btnApre, .btnProjeto, .btnForm {
     color: white;
     font-weight: 700;
+    border: none;
+    border-radius: 12px;
+    background-color: #3ccece;
+    box-shadow: 2px 1px 3px 1px #42dada;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btnApre {
     font-size: 19px;
     width: 140px;
     height: 54px;
-    border-radius: 12px;
-    background-color: #3ccece;
-    border: none;
-    box-shadow:2px 1px 3px 1px #42dada;
+
 }
-.btnApre:hover{
+
+.btnProjeto {
+    font-size: 17px;
+    width: 99px;
+    height: 41px;
+    font-weight: 350;
+    border-radius: 16px;
+}
+
+.btnForm {
+    height: 46px;
+    width: 130px;
+    font-size: 17px;
+    font-weight: 400;
+    border-radius: 3rem;
+}
+
+.btnApre:hover, .btnProjeto:hover, .btnForm:hover {
     box-shadow:2px 1px 3px 1px #84177e;
     background-color: #950f8e;
 }
@@ -102,7 +122,7 @@ div.spans-apre{
 }
 h2.h2-sobreMim{
     margin-bottom: 2rem;
-    margin-top: 5rem;
+    margin-top: 8.7rem;
 }
 .img-daniel{
     border-radius: 10px;
@@ -111,16 +131,12 @@ h2.h2-sobreMim{
    font-size:50px;
    line-height: 50px;
 }
-.h3-sobreMim2{
-    background: linear-gradient(45deg, #5DFFFF, #AE0CA7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    font-size: 32px;
-    line-height: 32px;
-    font-weight: 700;
-}
+
 
 /* section Tecnologias */
+.tech-titulo{
+    margin-top: 12px;
+}
 .containerTech{
     padding: 0rem 9rem 0rem 9rem;
 }
@@ -129,11 +145,7 @@ h2.h2-tech{
     margin-top: 1rem;
 }
 
-.spanTrabalho,.spanProjetos{
-    background: linear-gradient(45deg, #5DFFFF, #AE0CA7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-}
+
 .divImg{
     height: 270px;
     width: 320px;
@@ -141,22 +153,8 @@ h2.h2-tech{
     border-radius: 4px;
     background-color:   #0c0c0c;
 }
-.tech-paragrafo,.pProjeto{
-   line-height: 20px;
-   font-size: 18px;
-   font-weight: 350;
-
-}
-.tech-titulo,.h4Projeto{
-    margin-top: 11px;
-    margin-bottom: 11px;
-    background: linear-gradient(45deg, #5DFFFF, #AE0CA7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 /* section projetos */
-
 
 .containerProjeto{
     width: 100%;
@@ -168,10 +166,9 @@ h2.h2-tech{
     width: 410px;
     padding: 1rem;
     border-radius: 7px;
-
     box-shadow: 0px 0px 16px rgb(227, 228,237, 0.37);
     border:2px solid rgb(255, 255, 255,0.18);
-    
+    transition: all 0.3s ease-in-out;  
 }
 .imgProjeto{
     border-radius: 13px;
@@ -185,34 +182,20 @@ h2.h2-tech{
     border: 2px solid transparent; 
     background: linear-gradient(black, black) padding-box,
                 linear-gradient(90deg, #5DFFFF, #AE0CA7) border-box;
+                border: 2px solid transparent;
 }
-
-.btnProjeto{
-    margin: 0%;
-    color: white;
-    font-weight: 350;
-    font-size: 17px;
-    width: 99px;
-    height: 41px;
-    border-radius: 16px;
-    background-color: #3ccece;
-    border: none;
-    box-shadow:2px 1px 3px 1px #42dada;
-}
-.btnProjeto:hover{
-    box-shadow:2px 1px 3px 1px #84177e;
-
-    background-color: #950f8e;
-
-}.h4Projeto{
+.h4Projeto{
     font-size: 25px;
+    margin: 11px 0;
 }.h2-projeto,.h2Contato{
     margin-bottom: 6rem;
     margin-top: 1rem;
 }
 /* section de contato */
 
-
+.h2Contato{
+    margin-top: 8.7rem;
+}
 .sectionContato{  
     /* overflow-x: hidden; */
     padding: 0rem 8rem 0rem 5.8rem;
@@ -225,12 +208,8 @@ h2.h2-tech{
     font-size: 40px;
     color: #42dada;
 }
-.pInfo{
-   line-height: 20px;
-}
+
 .containerForm{
-    
-    height: 100%;
     padding: 2rem;
     border-radius: 1rem;
     background-color: #0c0c0c;
@@ -258,38 +237,25 @@ h2.h2-tech{
 .inputs1{
     height: 3rem;
 }    
-.btnForm{
-    height: 46px;
-    width: 130px;
-    background-color: #3ccece;
-    box-shadow:2px 1px 3px 1px #3ccece;
-    color: white;
-    font-weight: 400;
-    border: none;
-    border-radius: 3rem;
-    font-size: 17px;
-}
-.btnForm:hover{
-    box-shadow:2px 1px 3px 1px #84177e;
-    background-color: #950f8e;
-}
-
 /* footer */
 
 .footer{
-    height: 4rem;
+    height: 5rem;
     padding-left: 6rem;
 }
 .pFooter,hr{
-    margin: 0%;
+    margin: 0;
 }
 
 div.hr{
-    height: 4px;
+    margin-top: 4rem;
+    height: 5px;
 }
 hr{
     width: 89%;
 }
+
+/* responsividade */
 
 @media (max-width: 1400px) {
     .gridSobreMim,.sectionContato,.h2-sobreMim,.containerTech{

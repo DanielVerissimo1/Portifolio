@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg ">
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg">
           <div class="containerNavBar container-fluid ">
             <a class="navbar-brand text-white" href="#apresentacao"><span class="spanHeader">Porti</span>fólio</a>
             
@@ -54,18 +54,18 @@
             <div class="row justify-content-center mt-2">
               <div class="img-icone col-1">
     
-              <a href="https://www.instagram.com/daniel.veri10/" target="_blank"><img src="assets/icon/instagram-svgrepo-com.svg" alt="Instagram" class="imagemREdesSociais img-fluid " height="17" width="36"></a>
+              <a href="https://www.instagram.com/daniel.veri10/" target="_blank"><img src="assets/icon/instagram-svgrepo-com.svg" alt="Instagram" class="imagemREdesSociais img-fluid " height="20" width="36"></a>
               
               </div>
               <div class="img-icone col-1">
     
-                <a href="https://github.com/DanielVerissimo1 " target="_blank"><img src="assets/icon/github-svgrepo-com.svg" alt="Linkedin" class="imagemREdesSociais  img-fluid" height="17" width="36"></a>
+                <a href="https://github.com/DanielVerissimo1 " target="_blank"><img src="assets/icon/github-svgrepo-com.svg" alt="github" class="imagemREdesSociais  img-fluid" height="17" width="36"></a>
               </div>
               <div class="img-icone mb-2 col-1">
-                <a href="" target="_blank"><img src="assets/icon/linkedin-svgrepo-com.svg" alt="Gmail" class="imagemREdesSociais img-fluid " height="17" width="33"></a>
+                <a href="" target="_blank"><img src="assets/icon/linkedin-svgrepo-com.svg" alt="Linkedin" class="imgLinkedin img-fluid " height="17" width="33"></a>
               </div>
               <div class="img-icone col-1">
-                <a href="" target="_blank"><img src="assets/icon/gmail-svgrepo-com.svg" alt="GitHub" class="imagemREdesSociais  img-fluid" height="17" width="36"></a>
+                <a href="" target="_blank"><img src="assets/icon/gmail-svgrepo-com.svg" alt="Gmail" class="imagemREdesSociais  img-fluid" height="17" width="36"></a>
               </div>
     
             </div>
@@ -73,11 +73,11 @@
           </div>
         </section> 
         
-        <section id="sobreMim" class="sobreMim py-4 ">
+        <section class="sobreMim py-4 ">
             <div class="containerSobreMim container-fluid text-center py-5 " >
-              <h2 class="h2-sobreMim">Sobre Mim</h2>
+              <h2  id="sobreMim" class="h2-sobreMim">Sobre Mim</h2>
 
-              <div class="gridSobreMim row justify-content-between p-3">
+              <div class="gridSobreMim row justify-content-between">
                 <div class="col-lg-5 col-md-12">
                   <img src="assets/img/IMG_20250329_213149.jpg" class="img-daniel img-fluid mb-5" alt="" width="430">
                 </div>
@@ -193,7 +193,7 @@
   
                       <div class="d-flex justify-content-start align-items-center gap-5">
                           <div >
-                          <a href=""><img src="assets/icon/linkedin-svgrepo-com.svg" alt="Gmail" class="imagemREdesSociais img-fluid " height="17" width="33"></a>
+                            <a href="" target="_blank"><img src="assets/icon/gmail-svgrepo-com.svg" alt="Gmail" class="imagemREdesSociais  img-fluid" height="17" width="36"></a>
                           </div>
                           <div>
                           <p class="pInfo mt-4">danielsantoss1300@gmail.com</p>
@@ -205,7 +205,7 @@
                           <a href=""><img src="assets/icon/github-svgrepo-com.svg" alt="Linkedin" class="imagemREdesSociais  img-fluid" height="17" width="36"></a>
                           </div>
                           <div>
-                          <p class="pInfo mt-4">Lorem ipsum dolorae atque!</p>
+                          <p class="pInfo mt-4">DanielVerissimo1</p>
                           </div>
                       </div>
   
@@ -220,11 +220,8 @@
                       </div>
                   </div>
                 </div>
-
                   
-                  
-                  <div class="containerFormPai  col-lg-6 col-md-12 col-sm-12 col-xs-10 p-3">
-                    
+                    <div class="containerFormPai col-lg-6 col-md-12 col-sm-12 col-xs-10 p-3">
                     <div class="container containerForm ">
                       <form>
                         <div class="mb-4 mt-3">
@@ -238,18 +235,15 @@
                                   <div class="mb-4">
                                       <label for="message" class="form-label text-light">Mensagem:</label>
                                       <textarea class="form-control txtArea text-light" id="message" rows="4"  placeholder="Escreva algo..."></textarea>
-                      
                                   </div>
                                   <button type="submit" class="btnForm">Enviar</button>
                               </form>
                           </div>
                     </div>
-                   
             </div>
-
         </section>
     </main>
-    <div class="hr d-flex justify-content-center"><hr></div>
+    <div class="hr d-flex justify-content-center align-items-center"><hr></div>
     
     <footer class="footer text-start pFooter mb-3 d-flex align-items-center ">
         <p class="pFooter lead">2025 - Daniel Verissimo, todos os direitos rezervados</p>
