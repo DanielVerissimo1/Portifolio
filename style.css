@@ -8,7 +8,6 @@ body{
     font-family: "Josefin Sans";
     font-size: 18px; 
     line-height: 18px;
-
     font-style: normal; 
     font-variant: normal; 
     font-weight: 400; 
@@ -43,14 +42,16 @@ p{
 
 }
 /* header  */
-header > nav.navbar{
+nav.navbar{
     font-size: 22px; 
     font-weight: 600;
+    height: 90px;
 }
+
 a.navbar-brand{
     font-size: 30px; 
 }
-header>nav.navbar>div.container-fluid>div.collapse>ul.navbar-nav>li.nav-item>a.nav-link:hover{
+a.nav-link:hover{
     border-bottom:4px solid #5DFFFF;
 }
 .containerNavBar{
@@ -61,19 +62,14 @@ h2.h2-apresentacao{
     color: white;
 }
 
-div.containerApresentacao{
-    height: 45.8rem;
-
-}
 div.img-icone{
     width: 50px;
-    padding: 0%;
 }
 div.spans-apre{
     font-size: 25px;
     line-height: 25px;
     font-weight: 700;
-    margin-top: 11rem;
+    margin-top: 10rem;
 }
 .spanOla,.dev,.contato,.spanHeader{
     background: linear-gradient(45deg, #5DFFFF, #AE0CA7);
@@ -84,8 +80,6 @@ div.spans-apre{
     width:32px;
 }
 
-
-/* section sobre mim  */
 .btnApre{
     color: white;
     font-weight: 700;
@@ -99,24 +93,22 @@ div.spans-apre{
 }
 .btnApre:hover{
     box-shadow:2px 1px 3px 1px #84177e;
-
     background-color: #950f8e;
-
 }
 
-div.containerSobreMim{
-    padding:180px;
-    height: 100vh;
+/* section sobre mim  */
+.gridSobreMim{
+    padding: 0rem 13rem 0rem 13rem;
 }
 h2.h2-sobreMim{
     margin-bottom: 2rem;
-    margin-top: 6px;
+    margin-top: 5rem;
 }
 .img-daniel{
     border-radius: 10px;
 }
 .h3-sobreMim1{
-    font-size:50px;
+   font-size:50px;
    line-height: 50px;
 }
 .h3-sobreMim2{
@@ -124,21 +116,19 @@ h2.h2-sobreMim{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     font-size: 32px;
-   line-height: 32px;
-   font-weight: 700;
+    line-height: 32px;
+    font-weight: 700;
 }
 
-
 /* section Tecnologias */
-
+.containerTech{
+    padding: 0rem 9rem 0rem 9rem;
+}
 h2.h2-tech{
     margin-bottom: 3rem;
     margin-top: 1rem;
 }
-div.containerTech{
-    height: 100vh;
-    padding: 9.4rem;
-}
+
 .spanTrabalho,.spanProjetos{
     background: linear-gradient(45deg, #5DFFFF, #AE0CA7);
     -webkit-background-clip: text;
@@ -150,8 +140,6 @@ div.containerTech{
     padding: 18px;
     border-radius: 4px;
     background-color:   #0c0c0c;
-
-
 }
 .tech-paragrafo,.pProjeto{
    line-height: 20px;
@@ -171,16 +159,13 @@ div.containerTech{
 
 
 .containerProjeto{
-    height: 100vh;
-
     width: 100%;
 }
 .cardProjeto{
     /* #0B001A;  */
     
-    backdrop-filter: blur(30px);
     height: 550px;
-    width: 450px;
+    width: 410px;
     padding: 1rem;
     border-radius: 7px;
 
@@ -193,20 +178,22 @@ div.containerTech{
 }
 
 .cardProjeto:hover{
-    height: 552px;
-    width: 450px;
+    height: 551px;
+    width: 411px;
     border-radius: 7px;
     box-shadow: 0px 0px 10px linear-gradient(90deg, #5DFFFF, #AE0CA7);
     border: 2px solid transparent; 
     background: linear-gradient(black, black) padding-box,
                 linear-gradient(90deg, #5DFFFF, #AE0CA7) border-box;
 }
+
 .btnProjeto{
+    margin: 0%;
     color: white;
-    font-weight: 400;
+    font-weight: 350;
     font-size: 17px;
-    width: 110px;
-    height: 45px;
+    width: 99px;
+    height: 41px;
     border-radius: 16px;
     background-color: #3ccece;
     border: none;
@@ -217,8 +204,6 @@ div.containerTech{
 
     background-color: #950f8e;
 
-}.btn2{
-    margin-left: 84px;
 }.h4Projeto{
     font-size: 25px;
 }.h2-projeto,.h2Contato{
@@ -227,44 +212,37 @@ div.containerTech{
 }
 /* section de contato */
 
-.sectionContato{
-    height: 48rem;
-    overflow-x: hidden
+
+.sectionContato{  
+    /* overflow-x: hidden; */
+    padding: 0rem 8rem 0rem 5.8rem;
 }
-.message{
-    
-    padding-left:8rem;
+
+.containerMessagePai{
+    padding: 0px 30px 30px 30px;
 }
 .h3-message{
     font-size: 40px;
     color: #42dada;
 }
-
 .pInfo{
-   line-height: 18px;
-}
-
-.containerFormPai{
-    padding-left: 6rem;
+   line-height: 20px;
 }
 .containerForm{
-    height: 31rem;
-    width: 30rem ;
+    
+    height: 100%;
     padding: 2rem;
     border-radius: 1rem;
     background-color: #0c0c0c;
     box-shadow: 0px 0px 19px rgba(130, 131, 138, 0.37);
-
 }
-
 .inputs1,.txtArea{
     background-color: #393838;
     border: none;
     border-radius: 9px;
     font-size: 16px;
     transition: box-shadow 2s;
-    color: white; 
-    width: 26rem;  
+    color: white;
     
 }
 .inputs1:focus,.txtArea:focus{
@@ -277,12 +255,9 @@ div.containerTech{
 .form-label{
     font-size: 18px;
 }
-
 .inputs1{
     height: 3rem;
 }    
-
-
 .btnForm{
     height: 46px;
     width: 130px;
@@ -296,18 +271,13 @@ div.containerTech{
 }
 .btnForm:hover{
     box-shadow:2px 1px 3px 1px #84177e;
-
     background-color: #950f8e;
-
 }
 
 /* footer */
 
 .footer{
     height: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: start;
     padding-left: 6rem;
 }
 .pFooter,hr{
@@ -316,9 +286,14 @@ div.containerTech{
 
 div.hr{
     height: 4px;
-    display: flex;
-    justify-content: center;
 }
 hr{
     width: 89%;
 }
+
+@media (max-width: 1400px) {
+    .gridSobreMim,.sectionContato,.h2-sobreMim,.containerTech{
+        padding: 0rem ;
+    }
+  }
+

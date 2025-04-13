@@ -11,11 +11,13 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-lg ">
           <div class="containerNavBar container-fluid ">
             <a class="navbar-brand text-white" href="#apresentacao"><span class="spanHeader">Porti</span>fólio</a>
-            <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+              <span class="navbar-toggler-icon color-white"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
               <ul class="navbar-nav ms-auto">
@@ -37,8 +39,8 @@
         </nav>
     </header>
 
-    <main class="py-3">
-        <section id="apresentacao" class="apresentacao py-4 ">
+    <main>
+        <section id="apresentacao" class="apresentacao ">
           <div class="containerApresentacao container-fluid text-white text-center py-5" >
             <div class="spans-apre">
               <span class="spanOla">Olá,</span>
@@ -74,17 +76,20 @@
         <section id="sobreMim" class="sobreMim py-4 ">
             <div class="containerSobreMim container-fluid text-center py-5 " >
               <h2 class="h2-sobreMim">Sobre Mim</h2>
-              <div class="row justify-content-center ">
-                <div class="col-lg-6 ">
-                  <img src="assets/img/IMG_20250329_213149.jpg" class="img-daniel img-fluid" alt="" width="430">
+
+              <div class="gridSobreMim row justify-content-between p-3">
+                <div class="col-lg-5 col-md-12">
+                  <img src="assets/img/IMG_20250329_213149.jpg" class="img-daniel img-fluid mb-5" alt="" width="430">
                 </div>
-                <div class="col-6">
+                <div class="col-lg-7 col-md-12">
                   <h3 class="h3-sobreMim1 text-start">Daniel Verissimo</h3>
                   <h3 class="h3-sobreMim2 text-start">Front-End Developer</h3>
-                  <p class="lead text-start mb-3"">Desde cedo, sempre fui fascinado por como a tecnologia pode transformar o mundo ao nosso redor. Tenho 17 anos, sou estudante da EEEP Luiz Gonzaga Fonseca Mota e estou cursando o ensino médio integrado ao técnico em Informática. Foi nesse ambiente que descobri o quanto o desenvolvimento web me encanta — e também como a lógica por trás dos sistemas me instiga.</p>
-                  <p class="lead text-start mb-3"">Hoje, me dedico principalmente ao desenvolvimento front-end. Gosto de transformar ideias em interfaces que façam sentido para o usuário — unindo design, usabilidade e desempenho. Além disso, também tenho experiência com banco de dados e design gráfico, o que me permite ter uma visão mais completa de um projeto, do visual à estrutura de dados.</p>
-                  <p class="lead text-start">Sou curioso por natureza, sempre explorando novas ferramentas e formas de melhorar meu trabalho. Acredito que a tecnologia é uma ponte entre ideias e soluções, e quero fazer parte dessa construção. Este portfólio é o começo da minha jornada, e fico muito feliz por você estar aqui conhecendo um pouco do que faço.
-                  </p>
+                  <div class="textoSobreMim">
+                    <p class="lead text-start mb-3"">Desde cedo, sempre fui fascinado por como a tecnologia pode transformar o mundo ao nosso redor. Tenho 17 anos, sou estudante da EEEP Luiz Gonzaga Fonseca Mota e estou cursando o ensino médio integrado ao técnico em Informática. Foi nesse ambiente que descobri o quanto o desenvolvimento web me encanta — e também como a lógica por trás dos sistemas me instiga.</p>
+                    <p class="lead text-start mb-3"">Hoje, me dedico principalmente ao desenvolvimento front-end. Gosto de transformar ideias em interfaces que façam sentido para o usuário — unindo design, usabilidade e desempenho. Além disso, também tenho experiência com banco de dados e design gráfico, o que me permite ter uma visão mais completa de um projeto, do visual à estrutura de dados.</p>
+                    <p class="lead text-start">Sou curioso por natureza, sempre explorando novas ferramentas e formas de melhorar meu trabalho. Acredito que a tecnologia é uma ponte entre ideias e soluções, e quero fazer parte dessa construção. Este portfólio é o começo da minha jornada, e fico muito feliz por você estar aqui conhecendo um pouco do que faço.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -139,122 +144,115 @@
         <section id="projetos" class="sectionProjeto">
             <div class="containerProjeto container-fluid">
               <h2 class="h2-projeto text-center">Meus <span class="spanProjetos">Projetos</span></h2>
-      
-                <div class="gridProjeto row justify-content-center  gap-5"> 
-               
-                    <div class="cardProjeto col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <img src="assets/img/Captura de tela 2025-04-05 162204.png" alt="" class="imgProjeto img-fluid">
-                        <h4 class="h4Projeto">Portifólio Pessoal</h4>
-                        <p class="pProjeto lead">Este é o meu primeiro portfólio pessoal, um projeto que desenvolvi com muito empenho para apresentar minhas habilidades como desenvolvedor. Utilizei HTML, CSS e JavaScript para dar vida às páginas e o Bootstrap para garantir um layout moderno e responsivo. Foi uma ótima experiência para aplicar na prática o que venho aprendendo e marcar o início da minha trajetória na programação.</p>
-                        <div class="row justify-content-between mt-4">
-                            <div class="col-lg-6  ">
-                            <button class="btnProjeto  ">GitHub</button>
-                            </div>
-                            <div class="col-lg-6  ">
-                            <button class="btnProjeto btn2">Visualizar</button>
-                            </div>
-                        </div>
+   
+                <div class="gridProjeto row justify-content-center gap-5"> 
+                  <div class="cardProjeto col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                    <img src="assets/img/Captura de tela 2025-04-05 162204.png" alt="" class="imgProjeto img-fluid">
+                    <h4 class="h4Projeto">Portifólio Pessoal</h4>
+                    <p class="pProjeto lead">Este é o meu primeiro portfólio pessoal, criado com dedicação para mostrar minhas habilidades como desenvolvedor. Usei HTML, CSS, JavaScript e Bootstrap para construir um site moderno e responsivo. Esse projeto marcou o início da minha jornada na programação.</p>
+                    <div class="d-flex justify-content-between mt-5">
+                        <div><button class="btnProjeto  ">GitHub</button> </div>
+                        <div><button class="btnProjeto ">Visualizar</button></div>
                     </div>
+                </div>              
+                <div class="cardProjeto col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                  <img src="assets/img/Captura de tela 2025-04-05 162204.png" alt="" class="imgProjeto img-fluid">
+                  <h4 class="h4Projeto">Portifólio Pessoal</h4>
+                  <p class="pProjeto lead">Este é o meu primeiro portfólio pessoal, criado com dedicação para mostrar minhas habilidades como desenvolvedor. Usei HTML, CSS, JavaScript e Bootstrap para construir um site moderno e responsivo. Esse projeto marcou o início da minha jornada na programação.</p>
 
-                    <div class="cardProjeto col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                  <div class="d-flex justify-content-between mt-5">
+                      <div><button class="btnProjeto  ">GitHub</button></div>
+                      <div ><button class="btnProjeto ">Visualizar</button></div>
+                  </div>
+              </div>       
+
+                    <div class="cardProjeto col-xl-4 col-lg-6 col-md-12 col-sm-12">
                         <img src="assets/img/Captura de tela 2025-04-05 162204.png" alt="" class="imgProjeto img-fluid">
                         <h4 class="h4Projeto">Portifólio Pessoal</h4>
-                        <p class="pProjeto lead">Este é o meu primeiro portfólio pessoal, um projeto que desenvolvi com muito empenho para apresentar minhas habilidades como desenvolvedor. Utilizei HTML, CSS e JavaScript para dar vida às páginas e o Bootstrap para garantir um layout moderno e responsivo. Foi uma ótima experiência para aplicar na prática o que venho aprendendo e marcar o início da minha trajetória na programação.</p>
-                        <div class="row justify-content-between mt-4">
-                            <div class="col-lg-6  ">
-                            <button class="btnProjeto  ">GitHub</button>
-                            </div>
-                            <div class="col-lg-6  ">
-                            <button class="btnProjeto btn2">Visualizar</button>
-                            </div>
-                        </div>
-                    </div>          
-
-                    <div class="cardProjeto col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <img src="assets/img/Captura de tela 2025-04-05 162204.png" alt="" class="imgProjeto img-fluid">
-                        <h4 class="h4Projeto">Portifólio Pessoal</h4>
-                        <p class="pProjeto lead">Este é o meu primeiro portfólio pessoal, um projeto que desenvolvi com muito empenho para apresentar minhas habilidades como desenvolvedor. Utilizei HTML, CSS e JavaScript para dar vida às páginas e o Bootstrap para garantir um layout moderno e responsivo. Foi uma ótima experiência para aplicar na prática o que venho aprendendo e marcar o início da minha trajetória na programação. </p>
-                        <div class="row justify-content-between mt-4">
-                            <div class="col-lg-6  ">
-                            <button class="btnProjeto  ">GitHub</button>
-                            </div>
-                            <div class="col-lg-6  ">
-                            <button class="btnProjeto btn2">Visualizar</button>
-                            </div>
+                        <p class="pProjeto lead">Este é o meu primeiro portfólio pessoal, criado com dedicação para mostrar minhas habilidades como desenvolvedor. Usei HTML, CSS, JavaScript e Bootstrap para construir um site moderno e responsivo. Esse projeto marcou o início da minha jornada na programação.</p>
+                        <div class="d-flex justify-content-between mt-5">
+                            <div><button class="btnProjeto  ">GitHub</button></div>
+                            <div ><button class="btnProjeto ">Visualizar</button></div>
                         </div>
                     </div>
 
                 </div>
             </div>
         </section>
-        <section id="Scontato" class="sectionContato">
+
+        <section id="Scontato" class="sectionContato mt-5">
             <h2 class="h2Contato text-center"><span class="contato">Contato</span></h2>
 
-            <div class="row">
-
-                <div class="container message col-lg-6">
-                
-                    <h3 class="h3-message">Mande Mensagens</h3>
-                    <p class="lead pMessage">Se você tem dúvidas, sugestões ou apenas quer bater um papo comigo, fique à vontade para nos mandar uma mensagem! Estou sempre pronto para ajudar da melhor forma possível.</p>
-
-                    <div class="row align-items-center">
-                        <div class="col-lg-1">
-                        <a href=""><img src="assets/icon/linkedin-svgrepo-com.svg" alt="Gmail" class="imagemREdesSociais img-fluid " height="17" width="33"></a>
-                        </div>
-                        <div class="col-lg-10 ">
-                        <p class="pInfo mt-4">danielsantoss1300@gmail.com</p>
-                        </div>
-                    </div>
-
-                    <div class="row align-items-center">
-                        <div class="col-lg-1">
-                        <a href=""><img src="assets/icon/github-svgrepo-com.svg" alt="Linkedin" class="imagemREdesSociais  img-fluid" height="17" width="36"></a>
-                        </div>
-                        <div class="col-lg-10">
-                        <p class="pInfo mt-4">Lorem ipsum dolorae atque!</p>
-                        </div>
-                    </div>
-
-                    <div class="row align-items-center">
-                        <div class="col-lg-1">
-                        <a href=""><img src="assets/icon/instagram-svgrepo-com.svg" alt="Instagram" class="imagemREdesSociais img-fluid " height="17" width="36"></a>
-                        </div>
-                        <div class="col-lg-10">
-                        <p class="pInfo mt-4">daniel.veri10</p>
-                        </div>
-                    </div>
-
+            <div class="row "">
+              <div class="containerMessagePai col-lg-6 col-md-12 col-sm-12 col-xs-10 ">
+  
+                  <div class="container  message ">
+  
+                      <h3 class="h3-message">Mande Mensagens</h3>
+                      <p class="lead pMessage">Se você tem dúvidas, sugestões ou apenas quer bater um papo comigo, fique à vontade para nos mandar uma mensagem! Estou sempre pronto para ajudar da melhor forma possível.</p>
+  
+                      <div class="d-flex justify-content-start align-items-center gap-5">
+                          <div >
+                          <a href=""><img src="assets/icon/linkedin-svgrepo-com.svg" alt="Gmail" class="imagemREdesSociais img-fluid " height="17" width="33"></a>
+                          </div>
+                          <div>
+                          <p class="pInfo mt-4">danielsantoss1300@gmail.com</p>
+                          </div>
+                      </div>
+  
+                      <div class="d-flex justify-content-start align-items-center gap-5">
+                          <div>
+                          <a href=""><img src="assets/icon/github-svgrepo-com.svg" alt="Linkedin" class="imagemREdesSociais  img-fluid" height="17" width="36"></a>
+                          </div>
+                          <div>
+                          <p class="pInfo mt-4">Lorem ipsum dolorae atque!</p>
+                          </div>
+                      </div>
+  
+                      <div class="d-flex justify-content-start align-items-center gap-5">
+  
+                          <div >
+                          <a href=""><img src="assets/icon/instagram-svgrepo-com.svg" alt="Instagram" class="imagemREdesSociais img-fluid " height="17" width="36"></a>
+                          </div>
+                          <div>
+                          <p class="pInfo mt-4">daniel.veri10</p>
+                          </div>
+                      </div>
+                  </div>
                 </div>
 
-
-                    <div class="container containerFormPai  col-lg-6 ">
-                        <div class="container containerForm ">
-                            <form>
-                                <div class="mb-4 mt-3">
-                                    <label for="nome" class="form-label is-invalid">Nome:</label>
-                                    <input type="text" class="form-control inputs1 text-light" id="nome" placeholder="Digite seu nome...">
-                                </div>
-                                <div class="mb-4">
-                                    <label for="email" class="form-label ">Email:</label>
-                                    <input type="email" class="form-control inputs1 text-light" id="email"  placeholder="Digite seu Email...">
-                                </div>
-                                <div class="mb-4">
-                                    <label for="message" class="form-label text-light">Mensagem:</label>
-                                    <textarea class="form-control txtArea text-light" id="message" rows="4"  placeholder="Escreva algo..."></textarea>
-                            
-                                </div>
-                                <button type="submit" class="btnForm">Enviar</button>
-                            </form>
+                  
+                  
+                  <div class="containerFormPai  col-lg-6 col-md-12 col-sm-12 col-xs-10 p-3">
+                    
+                    <div class="container containerForm ">
+                      <form>
+                        <div class="mb-4 mt-3">
+                          <label for="nome" class="form-label is-invalid">Nome:</label>
+                          <input type="text" class="form-control inputs1 text-light" id="nome" placeholder="Digite seu nome...">
                         </div>
+                        <div class="mb-4">
+                          <label for="email" class="form-label ">Email:</label>
+                          <input type="email" class="form-control inputs1 text-light" id="email"  placeholder="Digite seu Email...">
+                                  </div>
+                                  <div class="mb-4">
+                                      <label for="message" class="form-label text-light">Mensagem:</label>
+                                      <textarea class="form-control txtArea text-light" id="message" rows="4"  placeholder="Escreva algo..."></textarea>
+                      
+                                  </div>
+                                  <button type="submit" class="btnForm">Enviar</button>
+                              </form>
+                          </div>
                     </div>
+                   
             </div>
 
         </section>
     </main>
-    <div class="hr"><hr></div>
+    <div class="hr d-flex justify-content-center"><hr></div>
     
-    <footer class="footer text-center pFooter mb-3">
-        <p class="pFooter lead">2025 - DanielVerissimo1, todos os direitos rezervados</p>
+    <footer class="footer text-start pFooter mb-3 d-flex align-items-center ">
+        <p class="pFooter lead">2025 - Daniel Verissimo, todos os direitos rezervados</p>
     </foote
 
 
