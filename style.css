@@ -3,6 +3,8 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+
 }
 body, section {
     font-family: "Josefin Sans", sans-serif;
@@ -37,8 +39,9 @@ p, .tech-paragrafo, .pProjeto, .pInfo {
 nav.navbar{
     font-size: 22px; 
     font-weight: 600;
-    height: 90px;
+
 }
+ 
 a.navbar-brand{
     font-size: 30px; 
 }
@@ -48,6 +51,24 @@ a.nav-link:hover{
 .containerNavBar{
     width: 88%;
 }
+
+/* header Modal  */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+.offcanvas {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .offcanvas .nav-link {
+    color: white;
+    font-weight: bold;
+  }
+
+
 /* texto com gradiente */
 
 .spanOla, .dev, .contato, .spanHeader,.spanTrabalho, .spanProjetos,
@@ -59,14 +80,15 @@ a.nav-link:hover{
 
 /* section Apresentação */
 
-div.img-icone{
-    width: 65px;
-}
 div.spans-apre{
     font-size: 25px;
     line-height: 25px;
     font-weight: 700;
     margin-top: 10rem;
+}
+
+div.img-icone{
+    width: 65px;
 }
 .imgLinkedin:hover {
     width:34px; 
