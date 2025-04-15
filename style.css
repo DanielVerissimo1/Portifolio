@@ -304,6 +304,9 @@ hr{
         padding-left: 1.7rem;
     }
     .cardProjeto{
-        width: 385px;
-    }   
+        width: 391px;
+    }   .cardProjeto:hover{
+        
+        width: 391px;
+    }
 }
