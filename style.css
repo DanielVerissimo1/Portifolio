@@ -286,15 +286,21 @@ hr{
   }
   @media (max-width: 900px) {
     h1 { 
-        font-size: 62px; line-height: 62px; }
-    h2 {
+        font-size: 62px; line-height: 62px;
+    }h2 
+    {
          font-size: 52px; line-height: 52px; 
-        }
+    }
     .h3-message {
          font-size: 34px; line-height: 34px;
-         }
+    }
     .gridSobreMim, .containerTech {
         padding: 0 1.5rem;
     }
-
+    .footer{
+        padding-left: 1.7rem;
+    }
+    .cardProjeto{
+        width: 385px;
+    }
 }
