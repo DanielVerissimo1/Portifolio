@@ -7,6 +7,6 @@ Bem-vindo ao meu portfólio! 🎨💻 Este repositório contém o código-fonte 
 Este portfólio foi criado para demonstrar minha trajetória profissional e técnica, destacando projetos relevantes e tecnologias que utilizo.  
 
 ## 🛠️ Tecnologias Utilizadas  
-- **Frontend:** HTML, CSS, JavaScript, Bootstrap
+- **Frontend:** HTML, CSS, Bootstrap
 - **Estilização:** CSS puro / Bootstrap
 
