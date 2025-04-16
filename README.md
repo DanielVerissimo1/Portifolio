@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/eb97299b-70d7-4525-a7db-cd0c5e8eec58)
 # 🚀 Meu Portfólio  
 
 Bem-vindo ao meu portfólio! 🎨💻 Este repositório contém o código-fonte do meu site pessoal, onde apresento meus projetos, habilidades e experiências na área de desenvolvimento e design.  
@@ -8,7 +9,4 @@ Este portfólio foi criado para demonstrar minha trajetória profissional e téc
 ## 🛠️ Tecnologias Utilizadas  
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap
 - **Estilização:** CSS puro / Bootstrap
-
-## 📸 Capturas de Tela  
-![image](https://github.com/user-attachments/assets/eb97299b-70d7-4525-a7db-cd0c5e8eec58)
 
