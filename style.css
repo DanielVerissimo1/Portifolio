@@ -41,7 +41,12 @@ p, .tech-paragrafo, .pProjeto, .pInfo {
 nav.navbar{
     font-size: 22px; 
     font-weight: 600;
-
+    background: rgba(0, 0, 0, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(40, 40, 45, 0.37);
+    -webkit-backdrop-filter: blur( 10px );
+    backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: none;
 }
  
 a.navbar-brand{
